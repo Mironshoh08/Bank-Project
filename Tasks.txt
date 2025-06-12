@@ -1,0 +1,24 @@
+2.1.3. Employee Performance Analysis Dashboard
+•	KPIs:
+o	Number of Transactions per Employee.
+o	Net Profit per Employee.
+o	Average Transaction Processing Time.
+o	Error Rate.
+•	Visualizations:
+o	Employee Ranking (Top/Worst Performers).
+o	Line Chart for Performance Trends Over Time.
+
+2.1.4. Branch Workload Analysis Dashboard
+•	KPIs:
+o	Average Clients per Employee.
+o	Average Queue Waiting Time.
+o	Peak Hours of Workload.
+o	Geographic Concentration of Clients by Regions.
+•	Insights and Suggestions:
+o	Identify Overburdened Branches.
+o	Recommend Opening New Branches or Optimizing Personnel.
+
+———
+5. Technical Requirements
+•	Performance: The dashboard should load/refresh in ≤ 30 seconds.
+•	Accessibility: Solution must work across devices (desktop, tablet, mobile).
