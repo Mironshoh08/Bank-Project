@@ -20,6 +20,8 @@ UPDATE_FULLNAME = False
 conn = pyodbc.connect(conn_str)
 cursor = conn.cursor()
 
+
+
 # Get IDs
 cursor.execute("SELECT BranchID FROM Branches")
 branch_ids = [row[0] for row in cursor.fetchall()]
@@ -116,3 +118,6 @@ conn.close()
 print("Data updated in SQL Server: Transactions, Performance, Queues")
 if UPDATE_FULLNAME:
     print("Employees FullName updated")
+
+with open("log.txt", "a") as f:
+    f.write(f"Script ran successfully {datetime.now()}\n")
