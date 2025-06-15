@@ -21,6 +21,5 @@ o	Identify Overburdened Branches.
 o	Recommend Opening New Branches or Optimizing Personnel.
 
 ——
-5. Technical Requirements
-•	Performance: The dashboard should load/refresh in ≤ 30 seconds.
+5. Technical Requirements 
 •	Accessibility: Solution must work across devices (desktop, tablet, mobile).
